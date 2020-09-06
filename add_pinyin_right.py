@@ -25,5 +25,6 @@ if __name__ == '__main__':
                 allyin = allyin[0]
 
             print('%s\033[0;33m%s\033[0;37m%s\033[0m' % (zi, yin, allyin), end='')
+            #print('%s%s' % (zi, yin), end='')
 
         print()
